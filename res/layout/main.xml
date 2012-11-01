@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    >
+<TextView
+		android:id="@+id/tv_refresh"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:text="Last update: Presh here to refresh" 
+		android:textSize="16dip"
+		android:gravity="center"
+		android:textColor="#000000"
+/>
+<ListView
+		android:id="@+id/lv_itunesranklist"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:fastScrollEnabled="true"
+		android:focusable="true"
+		android:fadingEdge="none"
+		android:scrollingCache="false"
+		android:divider="@drawable/list_divider"	
+		android:paddingRight="5dip"/>
+</LinearLayout>
